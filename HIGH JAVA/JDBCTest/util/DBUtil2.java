@@ -49,7 +49,7 @@ public class DBUtil2 {
 
 	public static Connection getConnection() {
 		try {
-//			return DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "leejunseok", "java");
+//			return DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "JWH97", "java");
 			return DriverManager.getConnection(
 					prop.getProperty("url"),
 					prop.getProperty("user"),
