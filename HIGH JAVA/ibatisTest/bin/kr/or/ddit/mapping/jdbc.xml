@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap
+    PUBLIC "-//ibatis.apache.org//DTD Sql Map 2.0//EN" 
+   "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+   
+<sqlMap namespace="jdbc">
+
+	<select id="getMaxId" resultClass="int">
+		SELECT NVL(MAX(LPROD_ID),0) + 1 MAXNUM FROM LPROD
+	</select>
+
+	<select id="getCountGu" parameterClass="string" resultClass="int">
+		SELECT COUNT(*) CNT FROM LPROD WHERE LPROD_GU = #LPROD_GU#
+	</select>
+
+	<insert id="insertLprod" parameterClass="LprodVO">
+		INSERT INTO LPROD (LPROD_ID, LPROD_GU, LPROD_NM)
+		VALUES (#lprod_id#, #lprod_gu#, #lprod_nm#)
+	</insert>
+	
+</sqlMap>
