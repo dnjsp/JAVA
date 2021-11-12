@@ -1,0 +1,8 @@
+[2021-08-25 11:33:27]  INFO (basic.Log4jTest - main:15) - 이것은 log4j의 [INFO]레벨의 메세지입니다.
+[2021-08-25 11:33:27]  WARN (basic.Log4jTest - main:16) - 이것은 log4j의 [WARN]레벨의 메세지입니다.
+[2021-08-25 11:33:27] ERROR (basic.Log4jTest - main:17) - 이것은 log4j의 [ERROR]레벨의 메세지입니다.
+[2021-08-25 11:33:27] FATAL (basic.Log4jTest - main:18) - 이것은 log4j의 [FATAL]레벨의 메세지입니다.
+[2021-08-25 11:34:18]  INFO (basic.Log4jTest - main:15) - 이것은 log4j의 [INFO]레벨의 메세지입니다.
+[2021-08-25 11:34:18]  WARN (basic.Log4jTest - main:16) - 이것은 log4j의 [WARN]레벨의 메세지입니다.
+[2021-08-25 11:34:18] ERROR (basic.Log4jTest - main:17) - 이것은 log4j의 [ERROR]레벨의 메세지입니다.
+[2021-08-25 11:34:18] FATAL (basic.Log4jTest - main:18) - 이것은 log4j의 [FATAL]레벨의 메세지입니다.
